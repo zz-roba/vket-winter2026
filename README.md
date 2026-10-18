@@ -2,5 +2,7 @@
 
 Vket 2026 Winter のブースが読み込む画像の置き場です。
 
-- `booth.png`: ブースのポスターと商品紹介（2048×2048）
-- `alpha_probe.png`: 試しの画像（落とした画像のアルファが値のまま届くかを確かめる・ブースは読まない）
+- `booth.png`: ブースのポスター・商品の札・屋根裏の展示の絵（2048×2048 の RGBA）。絵を BC1 の形に詰めてあり、ブースのシェーダーが解いて映します（普通の画像としては見られません）
+  - 今は仮の絵です（番号と「差し替えできる仮の絵」の帯つき）
+  - 仮の写真は Wikimedia Commons の CC0 の物です: Mountain and Landscape.jpg・Red maple flowers with a bee.jpg・Beech and ferns in Gullmarsskogen.jpg・Chateau Frontenac illuminated at night in Quebec City.jpg・Foodiesfeed.com pouring-honey-on-pancakes-with-walnuts.jpg・Sunset at Sea MET DT235919.jpg・Autumn leaves on the ground in Quebec City.jpg・Domestic shorthair cat portrait in grass.jpg
+- `alpha_probe.png`: 試しの画像（落とした画像のアルファが値のまま届くかを確かめた・ブースは読まない）
