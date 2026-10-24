@@ -20,8 +20,8 @@ Vket 2026 Winter のブースが読み込む画像の置き場です。
 - `booth_20261024.png`: 形式は `booth.png` と同じ（2048×2048 の RGBA・BC1 と 3D の形を詰めた物）
   - ポスターと札は `booth.png` の残す枠と同じ絵です（上の CC0 の写真を含みます）。屋根裏の減らした 16 枠は空です
   - 表の看板 5 枚（枠 48〜52）は番号入りの仮の絵です
-  - ショーケースの 3D の形 8 枠は、上限まで詰める試しの中身です（2026-10-24）。1〜5 枠目は Poly Haven の CC0 のモデル（三角 16,384 以下に間引き・テクスチャ 1024²）、6〜8 枠目はこのブースの家具のミニチュア（三角 16,384・テクスチャ 512²）
-    - Poly Haven（CC0・https://polyhaven.com/license）: vintage_video_camera・mantel_clock_01・marble_bust_01・lion_head・horse_statue_01（https://polyhaven.com/a/<名前>）
+  - ショーケースの 3D の形 8 枠は、上限まで詰める試しの中身です（2026-10-24）。1 枠目は絵になるカメラ（色だけ）、2〜5 枠目は Poly Haven の CC0 のモデル（三角 16,384 に間引き・テクスチャ 1024²）、6〜8 枠目はこのブースの家具のミニチュア（三角 16,384・テクスチャ 512²）
+    - Poly Haven（CC0・https://polyhaven.com/license）: mantel_clock_01・marble_bust_01・lion_head・horse_statue_01（https://polyhaven.com/a/<名前>）
     - 前の仮置き（1 枠目は絵になるカメラ・2〜8 枠目はこのブースの家具）は git の履歴（17c2604）にあります
 - `alpha_probe.png`: 試しの画像（落とした画像のアルファが値のまま届くかを確かめた・ブースは読まない）
 - `booth_model_test.png`: 試しの画像（ブースは読まない）。屋根裏のポスターを半分（16 枚）にした配置のポスターに、ショーケースの 3D の形を 8 枠ぶん足した物。形は絵になるカメラと試しの球・スザンヌ（Blender）で、写真は上と同じ CC0 の Mountain and Landscape.jpg と Sunset at Sea MET DT235919.jpg
